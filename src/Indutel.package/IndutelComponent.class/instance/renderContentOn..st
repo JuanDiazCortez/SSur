@@ -2,14 +2,18 @@ rendering
 renderContentOn: html
 	"
 "
+
 	super renderContentOn: html.
-	html div:[html image resourceUrl: 'logo-plain.png'].
-	html
-		div: [ html heading
-				level2;
-				class: 'titular';
-				with: self model titulo ].
-	html
-		horizontalRule;
-		break.
-	html div: [ html form with: [ html submitButton on: #save of: self ] ]
+	html div
+		class: 'caja';
+		with: [ self drawHead: html ].
+	html div
+		id: 'links';
+		with: [ html div
+				class: 'separador1';
+				with: [  ].
+			self botoneras: html ].
+	html div
+		class: 'container';
+		 with: [ self renderRubroOn: html ].
+		

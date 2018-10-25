@@ -2,4 +2,4 @@ initialization
 initialize
 
 	name:= 'indutel'.
-	titulo:= 'sistema de indutel'
+	titulo:= 'Sistema de Indutel'

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "jmdc 10/25/2018 16:28",
+	"super" : "WAComponent",
+	"category" : "Indutel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contact"
+	],
+	"name" : "ContactView",
+	"type" : "normal"
+}

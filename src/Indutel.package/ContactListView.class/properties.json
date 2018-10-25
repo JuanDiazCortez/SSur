@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "jmdc 10/23/2018 19:35",
+	"super" : "WAComponent",
+	"category" : "Indutel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ContactListView",
+	"type" : "normal"
+}
